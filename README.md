@@ -1,5 +1,5 @@
 # C++ Project
-This is a boilerplate for C++ projects configured for VSCode. Here's what's included:
+This is a none-opinionited, zero-configuration boilerplate for C++ projects. Here's what's included:
 * Slim Debian-based development environment using Docker
 * Support for [VSCode remote containers](https://code.visualstudio.com/docs/remote/containers)
 * Installs and configures Clang and libc++ for you (supports C++17)

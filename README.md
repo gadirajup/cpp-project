@@ -1,4 +1,4 @@
-# C++ Project
+# C++ Project [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 This is a none-opinionited, zero-configuration boilerplate for C++ projects. Here's what's included:
 * Slim Debian-based development environment using Docker
 * Support for [VSCode remote containers](https://code.visualstudio.com/docs/remote/containers)

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13.4)
+cmake_minimum_required(VERSION 3.12.4)
 project(cpp_project)
 
 # Set C++ standard to C++17

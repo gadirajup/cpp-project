@@ -7,3 +7,12 @@ This is a none-opinionited, zero-configuration boilerplate for C++ projects. Her
 * [GoogleTest](https://github.com/google/googletest) for unit testing
 * Continuous integration using Travis-CI
 * Code documentation using Doxygen
+
+### TODO's
+- [x] Create a Dockerfile with clang and libc++
+- [x] Add VSCode configuration file
+- [x] Create a basic CMake configuration file
+- [x] Integrate to Travis-CI
+- [ ] Add GoogleTest and create a dummy unit test
+- [ ] Add Doxygen and test doc generation
+- [ ] Update README.md file to include getting started instructions

@@ -16,7 +16,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     # 
     # Verify git, process tools, lsb-release (useful for CLI installs) installed
-    && apt-get -y install git iproute2 procps lsb-release \
+    && apt-get -y install git iproute2 procps lsb-release python3-venv python3-pip \
     #
     # Install C++ tools
     && apt-get -y install build-essential cmake cppcheck valgrind curl wget software-properties-common \
@@ -33,6 +33,9 @@ RUN apt-get update \
 # Install LLVM/Clang
 RUN bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)" \
     && apt-get -y install libc++-9-dev libc++abi-9-dev
+
+# Install cpplint
+RUN /usr/bin/pip3 install cpplint
 
 # Clean up
 RUN apt-get autoremove -y \
